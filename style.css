@@ -1,0 +1,34 @@
+/* Adding a Ghost Element */
+body::before {
+    content: '';
+    display: block;
+    height: 60px;
+}
+
+
+
+
+@media(min-width: 768px) {
+    .news-input {
+        width: 50%;
+    }
+}
+
+/* Growing Effect */
+.gridboxesCUSTOM .card {
+    transition: all 0.3s;
+}
+
+.gridboxesCUSTOM .card:hover {
+    /* transform: translateY(-10px); */
+    transform: scale(1.05);
+}
+
+.custom-color {
+    background-color: #f50052;
+    color: #fff;
+}
+
+.custom-color-font {
+    color: #f50052;
+}
